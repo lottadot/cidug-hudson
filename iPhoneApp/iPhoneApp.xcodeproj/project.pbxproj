@@ -16,6 +16,7 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* iPhoneAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iPhoneAppViewController.m */; };
 		344141411251604300BA5DDD /* LogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 344141401251604300BA5DDD /* LogicTests.m */; };
+		34414173125162F700BA5DDD /* Xcode324iOS41TestSuiteWorkaround.m in Sources */ = {isa = PBXBuildFile; fileRef = 34414172125162F700BA5DDD /* Xcode324iOS41TestSuiteWorkaround.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		344141391251601300BA5DDD /* LogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogicTests-Info.plist"; sourceTree = "<group>"; };
 		3441413F1251604300BA5DDD /* LogicTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogicTests.h; sourceTree = "<group>"; };
 		344141401251604300BA5DDD /* LogicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogicTests.m; sourceTree = "<group>"; };
+		34414172125162F700BA5DDD /* Xcode324iOS41TestSuiteWorkaround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Xcode324iOS41TestSuiteWorkaround.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iPhoneApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhoneApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +127,7 @@
 		3441413E1251602700BA5DDD /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				34414172125162F700BA5DDD /* Xcode324iOS41TestSuiteWorkaround.m */,
 				3441413F1251604300BA5DDD /* LogicTests.h */,
 				344141401251604300BA5DDD /* LogicTests.m */,
 			);
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				344141411251604300BA5DDD /* LogicTests.m in Sources */,
+				34414173125162F700BA5DDD /* Xcode324iOS41TestSuiteWorkaround.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

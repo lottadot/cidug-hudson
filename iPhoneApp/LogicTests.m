@@ -16,7 +16,7 @@
 - (void) testAppDelegate {
     
     id yourApplicationDelegate = [[UIApplication sharedApplication] delegate];
-    STAssertNotNil(yourApplicationDelegate, @"UIApplication failed to find the AppDelegate");
+    STAssertNil(yourApplicationDelegate, @"UIApplication failed to find the AppDelegate");
     
 }
 
@@ -28,6 +28,13 @@
     
 }
 
+- (void) testPass {
+	STAssertTrue(TRUE, @"");
+}
+
+//- (void) testFail {
+//	STFail(@"Must fail to succeed.");
+//}
 
 #endif
 
