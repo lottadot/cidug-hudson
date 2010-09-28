@@ -10,6 +10,8 @@
 
 @implementation iPhoneAppViewController
 
+@synthesize helloLabel
+
 
 
 /*
@@ -59,6 +61,8 @@
 
 
 - (void)dealloc {
+	[helloLabel release], self.helloLabel = nil;
+
     [super dealloc];
 }
 

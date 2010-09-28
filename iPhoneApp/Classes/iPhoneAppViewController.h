@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface iPhoneAppViewController : UIViewController {
-
+	UILabel *helloLabel;
 }
+
+@property (nonatomic, retain) IBOutlet UILabel *helloLabel;
 
 @end
 
