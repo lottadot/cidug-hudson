@@ -32,9 +32,9 @@
 	STAssertTrue(TRUE, @"");
 }
 
-//- (void) testFail {
-//	STFail(@"Must fail to succeed.");
-//}
+- (void) testFail {
+	STFail(@"Must fail to succeed.");
+}
 
 #endif
 
